@@ -1,8 +1,11 @@
 {
   "name": "eslint-plugin-no-cstyle-for-loop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An eslint plugin that does not allow c-style for loops",
   "main": "index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "esbuild src/index.js --bundle --platform=node --format=cjs --target=es2015 --outfile=dist/index.js",
     "test": "node src/test.js"
