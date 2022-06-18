@@ -11,6 +11,12 @@
     "eslint",
     "eslint-plugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cijiugechu/eslint-plugin-no-cstyle-for-loop.git"
+  },
+  "homepage": "https://github.com/cijiugechu/eslint-plugin-no-cstyle-for-loop#readme",
+  "bugs": "https://github.com/cijiugechu/eslint-plugin-no-cstyle-for-loop/issues",
   "author": "nemurubaka <cijiugechu@gmail.com>",
   "license": "MIT",
   "devDependencies": {
