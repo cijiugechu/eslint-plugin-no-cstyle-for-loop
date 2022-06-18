@@ -2,6 +2,20 @@
 
 An eslint plugin that does not allow c-style for loops.
 
+## ❌ Incorrect
+```javascript
+for(let i = 0; i < 10; i++) {
+  console.log(i);
+}
+```
+
+## ✅ Correct
+```javascript
+for(let i of [1, 2, 3]) {
+  console.log(i);
+}
+```
+
 ## Installation
 
 ```shell
