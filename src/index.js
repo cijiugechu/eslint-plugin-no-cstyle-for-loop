@@ -1,8 +1,8 @@
-import { noForLoop } from './rule'
+import noForLoop from './rule'
 
 module.exports = {
   rules: {
-    noForLoop,
+    noForLoop: noForLoop,
   },
   configs: {
     all: {
